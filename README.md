@@ -1,7 +1,6 @@
 # ForestEditor
-森林编辑器——对单棵树木编辑操作
+Forest Editor - Editing operations on a single tree
 
-可以对森林进行编辑操作，包括生成多棵同种异态的树木以及相应的undo/redo 操作，可以对单棵树木进行复制、删除，可以修改树木的形状、大小、角度等。
+You can edit the forest, including generating multiple trees of the same kind and the corresponding undo/redo operations. You can copy and delete individual trees, and modify the shape, size, and angle of the trees.
 
-采取的方法类似于树木编辑器，先通过一棵棵枝干组成树木，再将多棵树木添加到森林容器中，可以在 forests 容器内遍历所有生成过的森林，也是实现undo/redo 操作的关键。
-
+The method is similar to the tree editor. First, the trees are formed by a tree branch, and then multiple trees are added to the forest container. All the generated forests can be traversed in the forests container, which is also the key to realize the undo/redo operation. .
